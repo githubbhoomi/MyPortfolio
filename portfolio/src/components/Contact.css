@@ -1,0 +1,121 @@
+.contact-section{
+    width: 100%;
+    min-height: 100vh;
+    background: #020617;
+    color: white;
+    padding: 120px 10%;
+    position: relative;
+}
+
+/* Floating Social Sidebar */
+.floating-social{
+    position: fixed;
+    top: 40%;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    z-index: 999;
+}
+
+.floating-social a{
+    color: white;
+    font-size: 22px;
+    background: rgba(255,255,255,0.08);
+    padding: 12px;
+    border-radius: 50%;
+    backdrop-filter: blur(10px);
+    transition: 0.3s ease;
+}
+
+.floating-social a:hover{
+    transform: scale(1.2);
+    color: #38bdf8;
+}
+
+/* Container */
+.contact-container{
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+
+/* Heading */
+.contact-container h4{
+    color: #38bdf8;
+    font-size: 20px;
+}
+
+.contact-container h1{
+    font-size: 55px;
+}
+
+.contact-container h1{
+    font-size: 55px;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Cards */
+.contact-cards{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 25px;
+    margin-top: 50px;
+}
+
+/* Glass Card */
+.contact-card{
+    background: rgba(255,255,255,0.06);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255,255,255,0.1);
+    padding: 30px;
+    border-radius: 20px;
+    transition: 0.4s ease;
+}
+
+.contact-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 25px rgba(56,189,248,0.2);
+}
+
+.icon{
+    font-size: 28px;
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+/* Links */
+.contact-card a,
+.contact-card p{
+    color: #cbd5e1;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact-card a:hover{
+    color: #38bdf8;
+}
+
+/* WhatsApp Button */
+.whatsapp-btn{
+    margin-top: 40px;
+}
+
+.whatsapp-btn a{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 14px 25px;
+    background: #25D366;
+    color: white;
+    border-radius: 40px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.whatsapp-btn a:hover{
+    transform: scale(1.05);
+}
