@@ -9,7 +9,7 @@ const Skills = () => {
       title: "Frontend",
       skills: [
         { name: "HTML", percentage: 95 },
-        { name: "CSS", percentage: 90 },
+        { name: "CSS", percentage: 75 },
         { name: "JavaScript", percentage: 85 },
         { name: "React", percentage: 82 }
       ]
@@ -20,7 +20,9 @@ const Skills = () => {
       skills: [
         { name: "Python", percentage: 90 },
         { name: "Django", percentage: 85 },
-        { name: "REST API", percentage: 80 }
+        { name: "REST API", percentage: 70 },
+         { name: "Java", percentage: 50 },
+          { name: "Php", percentage: 50 }
       ]
     },
 
@@ -28,7 +30,8 @@ const Skills = () => {
       title: "Database",
       skills: [
         { name: "MySQL", percentage: 80 },
-        { name: "SQLite", percentage: 75 }
+        { name: "SQLite", percentage: 75 },
+        { name: "Postgresql", percentage: 60 }
       ]
     },
 

@@ -12,7 +12,7 @@ const About = () => {
 
           <div className="image-wrapper">
             <img
-              src="/profile.jpg"
+              src="/profilepic.jpg"
               alt="profile"
               className="profile-img"
             />
@@ -42,7 +42,7 @@ const About = () => {
             technologies to improve my development skills.
           </p>
 
-          <a href="/resume.pdf" download>
+          <a href="/Bhoomika_Resume.pdf" download>
       <button className="resume-btn">
         Download Resume
        </button>
