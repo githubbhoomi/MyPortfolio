@@ -12,7 +12,7 @@ const About = () => {
 
           <div className="image-wrapper">
             <img
-              src="/profilepic.jpg"
+              src="/BhoomikaN.jpg"
               alt="profile"
               className="profile-img"
             />
