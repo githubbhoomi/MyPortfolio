@@ -16,7 +16,7 @@ const Experience = () => {
 
             <p>
               Worked on web application development using PHP, JavaScript,
-              jQuery, Python, and Django. Built responsive UI components and
+              jQuery, Python, and Django,React,Nodejs. Built responsive UI components and
               improved application performance.
             </p>
           </div>
@@ -29,9 +29,8 @@ const Experience = () => {
             <h3>Personal Projects</h3>
 
             <p>
-              Developed projects like Fashion Frenzy, Job Portal App,
-              and AI-based Ghibli Image Converter using React, Django,
-              MySQL, and REST APIs.
+              Developed projects like Fashion Frenzy,Event Management using Html,Css, Django,Node js
+              MySQL and REST APIs.
             </p>
           </div>
         </div>
